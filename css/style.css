@@ -144,3 +144,36 @@ body{
   margin-top: 10px;
   font-weight: 400;
 }
+
+.offerta_formativa div{
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  margin: 1%;
+}
+
+.offerta_formativa div img{
+  width: 35%;
+  margin: 5%;
+}
+
+.offerta_formativa > div:nth-child(2) > img{
+  width: 60%;
+}
+
+.offerta_formativa div h3{
+  color: #7dba00;
+  margin: 5%;
+  font-size: 25px;
+}
+
+.offerta_formativa div p{
+  color: grey;
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+.offerta_formativa div hr{
+  margin: 10% 30%;
+  text-align: center;
+}
