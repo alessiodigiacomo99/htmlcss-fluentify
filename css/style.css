@@ -21,7 +21,7 @@ body{
 }
 
 .bg_grey{
-  background-color: #818a91;
+  background-color: lightgrey;
 }
 
 .wh{
@@ -33,6 +33,9 @@ body{
   border-radius: 5px;
 }
 /* /utility class */
+
+ /* header */
+ /* navbar */
 
 .navbar{
   padding: 10px 0;
@@ -84,6 +87,7 @@ body{
   display: table;
   clear: both;
 }
+/* /navbar */
 
 .container{
   margin-left: 10%;
@@ -118,4 +122,25 @@ body{
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: 100% 110%;
+}
+/* /header */
+
+/* main */
+.fluency{
+  height: 150px;
+  position: relative;
+}
+
+.fluency .content_fluency{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content_fluency h3{
+  color: grey;
+  margin-top: 10px;
+  font-weight: 400;
 }
